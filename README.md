@@ -1,4 +1,4 @@
-# Systeme-multi-agents_Projet-Batiments
+# Systeme-multi-agents_Projet-Batiments (Java)
 L'objectif de ce projet est de réaliser une application JAVA implémentant le Framework JADE permettant de réaliser un système multi-agent, dont des agents communiquent entre eux en s'envoyant des messages.
 
 Ici les agents sont présentés par des rectangles (Batiments) dont les positions sont générées aléatoirement ce qui engendre des collisions entre eux, l'objectif par la suite est pour chaque "Batiment" de reconnaître les autres "Batiments" qui sont en collision avec lui et de leur "demander" de se pousser, le batiment recevant un tel message doit tenter de se pousser, à petit pas, vers une direction qui évite la collision ou la minimise.
